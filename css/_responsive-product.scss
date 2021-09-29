@@ -1,0 +1,105 @@
+
+@media screen and (max-width: 992px){
+  section {
+    .principal {
+      .row {
+        .carou {
+          margin-top: 5rem;
+          padding: 0;
+          margin-bottom: 3rem;
+        }
+      }
+    }
+    .sink {
+      .row {
+        h3 {
+          font-size: 2rem;
+        }
+        .texts {
+          margin-top: 0;
+          padding: 2rem 3rem;
+        }
+        .s1 {
+          text-align: center;
+        }
+        .s2 {
+          text-align: center;
+        }
+        .carou {
+          padding: 1rem;
+        }
+      }
+    }
+    .table {
+      .row {
+        h3{
+          font-size: 2rem;
+        }
+        .texts {
+          margin-top: 0;
+          padding: 1.5rem 2rem;
+        }
+        .s1 {
+          text-align: center;
+        }
+        .s2 {
+          text-align: center;
+        }
+        .carou {
+          padding: 2rem;
+        }
+      }
+    }
+    .kitchen {
+      .row {
+        h3 {
+          margin: 4.5rem 0 2rem 0;
+          color: whitesmoke;
+        }
+        .carou {
+          padding: 0;
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  section {
+    .principal {
+      .row {
+        .carou {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+    .sink {
+      .row {
+        .texts {
+          padding: 1rem 3rem;
+        }
+        .carou {
+          padding: 0 1rem;
+        }
+      }
+      padding-bottom: 2rem;
+    }
+    .table {
+      .row {
+        .carou {
+          padding: 0 1rem;
+        }
+      }
+    }
+    .kitchen {
+      .row {
+        h3 {
+          margin: 3rem 0 2rem 0;
+        }
+        .carou {
+          margin-bottom: 4.5rem;
+        }
+      }
+    }
+  }
+}

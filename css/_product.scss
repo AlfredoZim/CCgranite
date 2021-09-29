@@ -1,0 +1,89 @@
+section {
+  .principal {
+    background: url("../img/light-grey-terrazzo.png") whitesmoke;
+    .row {
+      .carou {
+        margin-top: 5rem;
+        padding: 0 7rem;
+        padding-bottom: 4rem;
+        a {
+          background: rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+    border-bottom: 0.3rem solid whitesmoke;
+  }
+  .sink {
+    background: url("../img/dark-grey-terrazzo.png") black;
+    .row {
+      h3{
+        margin-top: 4.5rem;
+      }
+      .texts {
+        margin-top: 2rem;
+        text-align: center;
+        padding: 3rem 5rem;
+        h5 {
+          text-decoration: 1px underline;
+          margin-bottom: 2rem;
+        }
+      }
+      .s1 {
+        color: whitesmoke;
+        text-align: end;
+      }
+      .s2 {
+        color: whitesmoke;
+        text-align: start;
+      }
+      .carou {
+        padding: 1.5rem;
+      }
+    }
+    border-bottom: 0.3rem solid black;
+  }
+  .table {
+    background: url("../img/light-grey-terrazzo.png");
+    .row {
+      h3{
+        margin-top: 4.5rem;
+      }
+      .texts {
+        margin-top: 2rem;
+        text-align: center;
+        padding: 3rem 5rem;
+        h5 {
+          text-decoration: 1px underline;
+          margin-bottom: 2rem;
+        }
+      }
+      .s1 {
+        color: #202020;
+        text-align: end;
+      }
+      .s2 {
+        color: #202020;
+        text-align: start;
+      }
+      .carou {
+        padding: 1.5rem;
+      }
+    }
+    padding-bottom: 3rem;
+    border-bottom: 0.1rem solid white;
+  }
+  .kitchen {
+    background: url("../img/dark-grey-terrazzo.png") whitesmoke;
+    .row {
+      h3 {
+        margin: 4.5rem 0 2rem 0;
+        color: whitesmoke;
+      }
+      .carou {
+        padding: 0 12rem;
+        margin-bottom: 4rem;
+      }
+    }
+    border-bottom: 0.3rem solid black;
+  }
+}

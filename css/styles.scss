@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", Verdana, Arial, Sans-serif;
+}
+
+@import "header";
+@import "section";
+@import "footer";
+@import "responsive-header";
+@import "responsive-main";

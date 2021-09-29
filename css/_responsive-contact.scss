@@ -1,0 +1,89 @@
+@media screen and (max-width: 992px){
+  .contact {
+      .location {
+        .texts {
+          color: whitesmoke;
+          font-weight: normal;
+          padding: 1rem .5rem;
+        }
+        .map {
+          iframe {
+            width: 100%;
+            height: 20rem;
+          }
+        }
+      }
+      .mess {
+        .info{
+            padding: 0 1rem;
+            text-align: center;
+            h4{
+                margin-bottom: 1rem;
+            }
+            p{
+                font-size: .9rem;
+                padding: 2rem;
+            }
+        }
+        .formu {
+            .forms{
+                padding: 0 .5rem;
+                textarea{
+                    min-height: 7rem;
+                }
+            }
+        }
+      }
+    }
+}
+@media screen and (max-width: 768px) {
+    .contact {
+        .location {
+            padding-bottom: 6rem;
+          .tittle {
+            padding: 2rem 0;
+          }
+          .texts {
+            text-align: center;
+            font-size: .9rem;
+          }
+          .map {
+            iframe {
+              height: 15rem;
+            }
+          }
+        }
+        .mess {
+          padding: 2rem 0 3rem;
+          .tittle {
+            color: #202020;
+            text-align: center;
+            padding: 2rem 0;
+          }
+          .info{
+              text-align: center;
+              h4{
+                  margin-bottom: 0;
+              }
+              p{
+                  font-style: 2px;
+                  padding: 1.5rem;
+              }
+          }
+          .formu {
+              .forms{
+                  padding: 1rem .5rem;
+                  textarea{
+                      &::placeholder{
+                          text-align: center;
+                      }
+                  }
+                  input::placeholder{
+                      text-align: center;
+                  }
+              }
+          }
+        }
+      }
+      
+}

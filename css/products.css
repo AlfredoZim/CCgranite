@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Montserrat", Verdana, Arial, Sans-serif; }
+
+header {
+  top: 0;
+  left: 0;
+  background: rgba(20, 20, 20, 0.8);
+  position: fixed;
+  width: 100%;
+  height: 4rem; }
+  header nav a img {
+    max-height: 4rem; }
+  header nav .nav-toggle {
+    color: whitesmoke;
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    padding: 0 1rem;
+    line-height: 60px;
+    display: none; }
+  header nav .nav-menu .nav-menu-item {
+    font-family: "Montserrat", Verdana, Arial;
+    margin-right: 1rem;
+    padding: 0 1.5rem;
+    font-size: 1.3rem;
+    margin-top: 1rem; }
+    header nav .nav-menu .nav-menu-item:hover {
+      background: rgba(255, 255, 255, 0.5); }
+    header nav .nav-menu .nav-menu-item a {
+      text-decoration: none;
+      color: whitesmoke; }
+
+section .principal {
+  background: url("../img/light-grey-terrazzo.png") whitesmoke;
+  border-bottom: 0.3rem solid whitesmoke; }
+  section .principal .row .carou {
+    margin-top: 5rem;
+    padding: 0 7rem;
+    padding-bottom: 4rem; }
+    section .principal .row .carou a {
+      background: rgba(0, 0, 0, 0.2); }
+section .sink {
+  background: url("../img/dark-grey-terrazzo.png") black;
+  border-bottom: 0.3rem solid black; }
+  section .sink .row h3 {
+    margin-top: 4.5rem; }
+  section .sink .row .texts {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 3rem 5rem; }
+    section .sink .row .texts h5 {
+      text-decoration: 1px underline;
+      margin-bottom: 2rem; }
+  section .sink .row .s1 {
+    color: whitesmoke;
+    text-align: end; }
+  section .sink .row .s2 {
+    color: whitesmoke;
+    text-align: start; }
+  section .sink .row .carou {
+    padding: 1.5rem; }
+section .table {
+  background: url("../img/light-grey-terrazzo.png");
+  padding-bottom: 3rem;
+  border-bottom: 0.1rem solid white; }
+  section .table .row h3 {
+    margin-top: 4.5rem; }
+  section .table .row .texts {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 3rem 5rem; }
+    section .table .row .texts h5 {
+      text-decoration: 1px underline;
+      margin-bottom: 2rem; }
+  section .table .row .s1 {
+    color: #202020;
+    text-align: end; }
+  section .table .row .s2 {
+    color: #202020;
+    text-align: start; }
+  section .table .row .carou {
+    padding: 1.5rem; }
+section .kitchen {
+  background: url("../img/dark-grey-terrazzo.png") whitesmoke;
+  border-bottom: 0.3rem solid black; }
+  section .kitchen .row h3 {
+    margin: 4.5rem 0 2rem 0;
+    color: whitesmoke; }
+  section .kitchen .row .carou {
+    padding: 0 12rem;
+    margin-bottom: 4rem; }
+
+footer .barr {
+  background: #202020;
+  margin: 0;
+  padding: 0rem 0 0 0; }
+  footer .barr .social {
+    text-align: center; }
+    footer .barr .social a {
+      padding: 10px;
+      display: inline-block;
+      margin: 1rem;
+      width: 55px;
+      font-size: 24px;
+      color: #fff;
+      background: #000;
+      border-radius: 100px; }
+      footer .barr .social a:hover {
+        text-decoration: none; }
+      footer .barr .social a.facebook {
+        background: #3b5998; }
+      footer .barr .social a.instagram {
+        background: #e1306c; }
+      footer .barr .social a.whatsapp {
+        background: #25d366; }
+  footer .barr .rights {
+    color: whitesmoke; }
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 4rem; }
+    header nav a img {
+      max-height: 4rem; }
+    header nav .nav-toggle {
+      display: block; }
+    header nav .nav-menu {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      background: rgba(20, 20, 20, 0.8);
+      position: fixed;
+      left: 0;
+      top: 4rem;
+      width: 100%;
+      left: 0;
+      transition: left 0.5s; }
+      header nav .nav-menu .nav-menu-item {
+        padding: 1rem 0;
+        line-height: 3rem; }
+        header nav .nav-menu .nav-menu-item:hover {
+          background: rgba(255, 255, 255, 0.5); }
+    header nav .nav-menu_visible {
+      left: 100%; } }
+@media screen and (max-width: 992px) {
+  section .principal .row .carou {
+    margin-top: 5rem;
+    padding: 0;
+    margin-bottom: 3rem; }
+  section .sink .row h3 {
+    font-size: 2rem; }
+  section .sink .row .texts {
+    margin-top: 0;
+    padding: 2rem 3rem; }
+  section .sink .row .s1 {
+    text-align: center; }
+  section .sink .row .s2 {
+    text-align: center; }
+  section .sink .row .carou {
+    padding: 1rem; }
+  section .table .row h3 {
+    font-size: 2rem; }
+  section .table .row .texts {
+    margin-top: 0;
+    padding: 1.5rem 2rem; }
+  section .table .row .s1 {
+    text-align: center; }
+  section .table .row .s2 {
+    text-align: center; }
+  section .table .row .carou {
+    padding: 2rem; }
+  section .kitchen .row h3 {
+    margin: 4.5rem 0 2rem 0;
+    color: whitesmoke; }
+  section .kitchen .row .carou {
+    padding: 0;
+    margin-bottom: 2rem; } }
+@media screen and (max-width: 768px) {
+  section .principal .row .carou {
+    margin-bottom: 1rem; }
+  section .sink {
+    padding-bottom: 2rem; }
+    section .sink .row .texts {
+      padding: 1rem 3rem; }
+    section .sink .row .carou {
+      padding: 0 1rem; }
+  section .table .row .carou {
+    padding: 0 1rem; }
+  section .kitchen .row h3 {
+    margin: 3rem 0 2rem 0; }
+  section .kitchen .row .carou {
+    margin-bottom: 4.5rem; } }
+
+/*# sourceMappingURL=products.css.map */

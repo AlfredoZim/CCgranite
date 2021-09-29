@@ -1,0 +1,36 @@
+footer {
+  
+  .barr {
+    background: #202020;
+    margin: 0;
+    padding: 0rem 0 0 0;
+    .social {
+      text-align: center;
+      a {
+        padding: 10px;
+        display: inline-block;
+        margin: 1rem;
+        width: 55px;
+        font-size: 24px;
+        color: #fff;
+        background: #000;
+        border-radius: 100px;
+        &:hover {
+          text-decoration: none;
+        }
+        &.facebook{
+            background: #3b5998;
+        }
+        &.instagram{
+            background: #e1306c;
+        }
+        &.whatsapp{
+            background: #25d366;
+        }
+      }
+    }
+    .rights {
+      color: whitesmoke;
+    }
+  }
+}

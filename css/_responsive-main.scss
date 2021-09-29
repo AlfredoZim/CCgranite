@@ -1,0 +1,75 @@
+@media screen and (max-width: 992px) {
+  .main {
+    .about {
+      padding: 3rem 1rem 1rem 1rem;
+      padding-top: 3rem;
+      padding-bottom: 1rem;
+      .image {
+        img {
+          box-shadow: 0 0 1rem rgba(255, 255, 255, 0.2);
+          border-radius: 1rem;
+        }
+      }
+      .texts {
+        color: rgba(255, 255, 255, 0.8);
+        font-family: "Montserrat", Verdana, Arial;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+      }
+    }
+    .location {
+      .texts {
+        h4,
+        h5,
+        p {
+          text-align: center;
+          font-size: 1rem;
+          padding: 0 1rem;
+        }
+      }
+      .map {
+        iframe {
+          height: 15rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .main {
+    .front {
+      .texts {
+        padding: 5rem 0;
+        .s-line {
+          margin-bottom: 5rem;
+        }
+      }
+      .container-btn {
+        a {
+          margin-bottom: 4rem;
+          &:hover {
+            color: #202020;
+            border: #202020;
+          }
+        }
+      }
+    }
+    .about {
+      .image {
+        img {
+          box-shadow: 0 0 1rem rgba(255, 255, 255, 0.2);
+          border-radius: 1rem;
+        }
+      }
+      .texts {
+        margin-top: 2rem;
+        padding: 2rem;
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

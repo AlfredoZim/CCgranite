@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Montserrat", Verdana, Arial, Sans-serif;
+  }
+
+  @import "header";
+  @import "responsive-header";
+  @import "contact-design";
+  @import "responsive-contact";
+  @import "footer";
